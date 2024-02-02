@@ -1,64 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
+<html lang="en" style="overflow-y: auto;"><head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>David Kobalia</title>
+  <meta name="description" content="David Kobalia's Personal Website">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ '/assets/favicon/Logo.svg' | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicon/Logo.svg' | prepend: site.baseurl }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicon/Logo.svg' | prepend: site.baseurl }}">
-  <link rel="manifest" href="{{ '/assets/favicon/site.webmanifest' | prepend: site.baseurl }}">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/Logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/Logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/Logo.svg">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
   <meta name="theme-color" content="#ffffff">
 
-  <link rel="stylesheet" href="{{ 'css/all.min.css' | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ 'css/vendors.min.css' | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
 
-  <script src="{{ 'js/vendors.min.js' | prepend: site.baseurl }}"></script>
-  <script src="{{ 'js/app.min.js' | prepend: site.baseurl }}"></script>
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
 </head>
 
-<body>
-  <div id="preloader">
-    <div class="load">
-      <hr/>
-      <hr/>
-      <hr/>
-      <hr/>
-    </div>
-  </div>
-  {% include landing-page.html %}
-  <div class="layout">
-    {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
-      </section>
-    {% endif %}
-    {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-timeline.html %}
-      </section>
-    {% endif %}
-    {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
-        {% include section-projects.html %}
-      </section>
-    {% endif %}
-    {%if site.show_skills_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-skills.html %}
-    </section>
-    {% endif %}
-    {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
-      {% include section-contact.html %}
-    </section>
-    {% endif %}
-  </div>
-  {% include footer.html %}
-</body>
-</html>
+<body data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="100" data-new-gr-c-s-check-loaded="14.1153.0" data-gr-ext-installed="">
+  
+  <div id="landing">
+  <div class="landing-title">
+    <img src="https://media.giphy.com/media/xTiIzJSKB4l7xTouE8/giphy.gif">
+    <h1>I'm
+      <span class="highlight-title">David Kobalia</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="1000" data-rotate="[&quot;Software Engineer / QA Tester&quot;, &quot;scroll down for more.&quot;]"><span class="wrap">Software Engineer</span></span>
+    </h1>
+    <div class="landing-icons">
