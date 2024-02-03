@@ -1,0 +1,36 @@
+<html lang="en" style="overflow-y: auto;"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Sin-Services</title>
+  <meta name="description" content="Sin-Services a WIP.">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/Logo.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/Logo.svg">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/Logo.svg">
+  <link rel="manifest" href="favicon/site.webmanifest">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/vendors.min.css">
+
+  <script src="java/vendors.min.js"></script>
+  <script src="java/app.min.js"></script>
+  <script src="java/ttf.js"></script>
+  <script src="java/apps.js"></script>
+  <script src="java/apps.min.js"></script>
+  <script src="java/particles.js"></script>
+  <script src="java/ttf.js"></script>
+<script src="java/jquery-3.5.1.slim.js"></script>
+</head>
+
+<body data-aos-easing="ease-in-sine" data-aos-duration="600" data-aos-delay="100" data-new-gr-c-s-check-loaded="14.1153.0" data-gr-ext-installed="">
+  
+  <div id="landing">
+  <div class="landing-title">
+    <h1>This is
+      <span class="highlight-title">Sin Services</span>,
+</h1>
+    <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=47&pause=1000&color=FFFFFF&center=true&random=true&width=800&height=90&lines=Develpoed+by+Ruplicx.;Lifes+Not+Fair.;I+Wanna+Fucking+die.;Am+i+Chinese+Because+i+ate+my+dog;My+Discord+is+15.rupic.15;I+love+someone.;Death+is+what+i+want...;I+wished+someone+loved+me." alt="Typing SVG" /></a>
+    <div class="landing-icons">
